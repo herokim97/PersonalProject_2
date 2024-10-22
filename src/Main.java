@@ -1,5 +1,5 @@
 import BaseBallGame.GameStart;
-import BaseBallGame.MakeNumber;
+
 
 import java.util.*;
 
@@ -7,13 +7,30 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
         GameStart gameStart = new GameStart();
-        MakeNumber makeNumber = new MakeNumber();
+        boolean exit = true;
 
-        System.out.println("welcome!! choice one!");
-        System.out.println("1. startGame 2. GameRecord 3. exit");
 
-        gameStart.start();
+
+        while (exit) {
+            System.out.println("welcome!! choice one!");
+            System.out.println("1. startGame 2. GameRecord 3. exit");
+
+            String choice = sc.nextLine();
+
+            switch (choice) {
+                case "1":
+                    gameStart.start();
+                    break;
+                case "3":
+                    exit = false;
+                    System.out.println("good bye");
+                    break;
+            }
+
+        }
+
 
     }
 }
