@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2e86439-98af-43ef-8ac6-aac0184f0839" name="변경" comment="개인 2차 과제 GameLog 개발">
+    <list default="true" id="f2e86439-98af-43ef-8ac6-aac0184f0839" name="변경" comment="개인 2차 과제 Lv.4 난이도 선택 코드 작성 완료. 테스트 완료. 정상 작동 중.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseBallGame/GameLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseBallGame/GameLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseBallGame/GameStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseBallGame/GameStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseBallGame/MakeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseBallGame/MakeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseBallGame/NumberValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseBallGame/NumberValid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +35,9 @@
     &quot;accountId&quot;: &quot;ece4d589-101b-46fb-80f2-7d2c49a9ae78&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -89,7 +88,7 @@
       <workItem from="1729511082888" duration="60000" />
       <workItem from="1729511148846" duration="1152000" />
       <workItem from="1729568488791" duration="21130000" />
-      <workItem from="1729656727571" duration="12970000" />
+      <workItem from="1729656727571" duration="15555000" />
     </task>
     <task id="LOCAL-00001" summary="개인 2차 과제 시작 문구 미완성">
       <option name="closed" value="true" />
@@ -123,7 +122,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729656875985</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="개인 2차 과제 Lv.4 난이도 선택 코드 작성 완료. 테스트 완료. 정상 작동 중.">
+      <option name="closed" value="true" />
+      <created>1729681293882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729681293882</updated>
+    </task>
+    <task id="LOCAL-00006" summary="개인 2차 과제 Lv.4 난이도 선택 코드 작성 완료. 테스트 완료. 정상 작동 중.">
+      <option name="closed" value="true" />
+      <created>1729681345552</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729681345552</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,21 +159,7 @@
     <MESSAGE value="개인 2차 과제 시작 문구 미완성" />
     <MESSAGE value="개인 2차 과제 시작 문구 완성" />
     <MESSAGE value="개인 2차 과제 GameLog 개발" />
-    <option name="LAST_COMMIT_MESSAGE" value="개인 2차 과제 GameLog 개발" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/BaseBallGame/GameStart.java</url>
-          <line>32</line>
-          <properties class="BaseBallGame.GameStart" method="start">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="개인 2차 과제 Lv.4 난이도 선택 코드 작성 완료. 테스트 완료. 정상 작동 중." />
+    <option name="LAST_COMMIT_MESSAGE" value="개인 2차 과제 Lv.4 난이도 선택 코드 작성 완료. 테스트 완료. 정상 작동 중." />
   </component>
 </project>
