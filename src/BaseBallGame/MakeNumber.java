@@ -10,9 +10,9 @@ public class MakeNumber {
 
     public MakeNumber() {}
 
-    public void make(){
+    public void make(int level){
         // 여러 개의 랜덤 값을 HashSet에 추가
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < level; i++) {
 
             int randomValue = random.nextInt(9) + 1;// 0에서 8까지의 랜덤 값 생성
             boolean isAdded = result.add(randomValue); //중복 유무 판별.

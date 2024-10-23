@@ -24,7 +24,7 @@ public class GameLog {
     public void logSave(int gameCount, int tryCount) {
         //dictionary 형태로 저장
         gameLog.put(gameCount, tryCount);
-        System.out.println(gameCount + " " + tryCount);
+//        System.out.println(gameCount + " " + tryCount);
     }
 
     public void logPrint() {

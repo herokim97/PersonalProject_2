@@ -15,13 +15,13 @@ public class GameStart {
     GameLog gameLog; //객체 선언
     MakeNumber makeNumber;
 
-    public void gameReset() {
+    public void gameReset(int level) {
         answerLinkedHashSet.clear();
         makeNumber = new MakeNumber();
         gameCount++;
         tryCount = 0;
         System.out.println("making Number... >> ");
-        makeNumber.make();
+        makeNumber.make(level);
         System.out.println("정답 테스트 >> " + makeNumber.getResult());
     }
     //공용 객체 사용 시, 생성자에서 파라미터로 전달.
@@ -30,11 +30,11 @@ public class GameStart {
     }
 
 
-    public void start() {
+    public void start(int level) {
         //사용자 입력 코드
-        while (numberValid.getStrike() != 3) {
+        while (numberValid.getStrike() != level) {
             tryCount++;
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < level; i++) {
                 System.out.println(i + 1 + " 번째 값 입력. >>  ");
                 try {
                     String answer = sc.nextLine();
@@ -66,7 +66,7 @@ public class GameStart {
             //검증 절차
             numberValid.setAnswer(answerLinkedHashSet);
             numberValid.setProblem(makeNumber.getResult());
-            numberValid.InvalidAnswer();
+            numberValid.InvalidAnswer(level);
         }
         numberValid.reset();
         gameLog.setGameCount(gameCount);

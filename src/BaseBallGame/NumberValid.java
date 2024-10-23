@@ -27,7 +27,7 @@ public class NumberValid {
         this.strike = 0;
     }
 
-    public void InvalidAnswer() {
+    public void InvalidAnswer(int level) {
 
         //현재 비교를 위해서 LinkedHashSet -> arrayList로 변경 하였습니다.
         List<Integer> problemList = new ArrayList<>(problem);
@@ -50,9 +50,9 @@ public class NumberValid {
             }
 
         }
-        out = 3-(strike + ball);
+        out = level-(strike + ball);
         System.out.println("strike = " + strike + " ball = " + ball + " out = " + out);
-        if(strike == 3) {
+        if(strike == level) {
             System.out.println("Clear!!");
         }
         else {
