@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2e86439-98af-43ef-8ac6-aac0184f0839" name="변경" comment="개인 2차 과제 시작 문구 미완성">
+    <list default="true" id="f2e86439-98af-43ef-8ac6-aac0184f0839" name="변경" comment="개인 2차 과제 시작 문구 완성">
+      <change afterPath="$PROJECT_DIR$/src/BaseBallGame/GameLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseBallGame/GameStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseBallGame/GameStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseBallGame/NumberValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseBallGame/NumberValid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +26,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "herokim97"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/herokim97/PersonalProject_2.git",
+    "accountId": "ece4d589-101b-46fb-80f2-7d2c49a9ae78"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2njpfUf7Zvz5gODOhP5m8fERfYB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,7 +87,7 @@
       <workItem from="1729510981371" duration="95000" />
       <workItem from="1729511082888" duration="60000" />
       <workItem from="1729511148846" duration="1152000" />
-      <workItem from="1729568488791" duration="10477000" />
+      <workItem from="1729568488791" duration="21130000" />
     </task>
     <task id="LOCAL-00001" summary="개인 2차 과제 시작 문구 미완성">
       <option name="closed" value="true" />
@@ -79,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729582266659</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="개인 2차 과제 시작 문구 완성">
+      <option name="closed" value="true" />
+      <created>1729584376246</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729584376246</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +124,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="개인 2차 과제 시작 문구 미완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="개인 2차 과제 시작 문구 미완성" />
+    <MESSAGE value="개인 2차 과제 시작 문구 완성" />
+    <option name="LAST_COMMIT_MESSAGE" value="개인 2차 과제 시작 문구 완성" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BaseBallGame/NumberValid.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

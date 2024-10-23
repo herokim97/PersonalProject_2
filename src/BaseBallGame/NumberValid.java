@@ -23,6 +23,10 @@ public class NumberValid {
         this.answer = answer;
     }
 
+    public void reset() {
+        this.strike = 0;
+    }
+
     public void InvalidAnswer() {
 
         //현재 비교를 위해서 LinkedHashSet -> arrayList로 변경 하였습니다.
@@ -59,6 +63,9 @@ public class NumberValid {
             out = 0;
 
         }
+
+
+
     }
 
 //현재 거의 구현은 완료 되었는데, 입력 받는 LinkedHashset이 초기화가 안됩니다.
