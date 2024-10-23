@@ -39,6 +39,13 @@ public class GameLog {
         }
     }
 
+    public int getGameCount() {
+        return gameCount;
+    }
+
+    public int getTryCount() {
+        return tryCount;
+    }
 }
 
 

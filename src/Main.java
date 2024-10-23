@@ -84,7 +84,7 @@ public class Main {
                     break;
                 default:
                     System.out.println("wrong input >> retry");
-                    continue;
+
             }
 
         }
