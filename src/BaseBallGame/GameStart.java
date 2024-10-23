@@ -22,8 +22,9 @@ public class GameStart {
         tryCount = 0;
         System.out.println("making Number... >> ");
         makeNumber.make(level);
-        System.out.println("정답 테스트 >> " + makeNumber.getResult());
+//        System.out.println("정답 테스트 >> " + makeNumber.getResult());
     }
+
     //공용 객체 사용 시, 생성자에서 파라미터로 전달.
     public GameStart(GameLog gameLog) {
         this.gameLog = gameLog;

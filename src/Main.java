@@ -12,10 +12,10 @@ public class Main {
         GameLog gameLog = new GameLog();
         GameStart gameStart = new GameStart(gameLog);
         boolean exit = true;
-        int level = 3;
 
 
         while (exit) {
+            int level = 3;
             boolean flag = true;
             System.out.println("========================");
             System.out.println("welcome!! choice one!");
@@ -29,8 +29,7 @@ public class Main {
                     while (flag) {
                         System.out.println("Setting choice level");
                         String choiceLevel = sc.nextLine();
-
-                        if("3".equals(choiceLevel) || "4".equals(choiceLevel) || "5".equals(choiceLevel)) {
+                        if ("3".equals(choiceLevel) || "4".equals(choiceLevel) || "5".equals(choiceLevel)) {
                             level = Integer.parseInt(choiceLevel);
                             gameStart.gameReset(level);
                             gameStart.start(level);

@@ -3,7 +3,8 @@ package BaseBallGame;
 import java.util.*;
 
 public class NumberValid {
-    public NumberValid () {}
+    public NumberValid() {
+    }
 
     LinkedHashSet<Integer> problem = new LinkedHashSet<>();
     LinkedHashSet<Integer> answer = new LinkedHashSet<>();
@@ -12,7 +13,9 @@ public class NumberValid {
     int ball;
     int out;
 
-    public int getStrike() {return this.strike;}
+    public int getStrike() {
+        return this.strike;
+    }
 
     public void setProblem(LinkedHashSet<Integer> problem) {
         this.problem = problem;
@@ -28,34 +31,28 @@ public class NumberValid {
     }
 
     public void InvalidAnswer(int level) {
-
         //현재 비교를 위해서 LinkedHashSet -> arrayList로 변경 하였습니다.
         List<Integer> problemList = new ArrayList<>(problem);
         List<Integer> answerList = new ArrayList<>(answer);
         //problem의 배열과 answer의 배열을 비교.
-        for(int i = 0; i<problemList.size(); i++) {
-            for(int j = 0; j<answerList.size(); j++) {
+        for (int i = 0; i < problemList.size(); i++) {
+            for (int j = 0; j < answerList.size(); j++) {
                 //만약 값이 같을경우 주소값을 비교하여 ball 인지 strike인지 구분
-                if(answerList.get(i).equals(problemList.get(j))) {
-                    if(i != j) {
+                if (answerList.get(i).equals(problemList.get(j))) {
+                    if (i != j) {
                         ball++;
-                    }
-                    else {
+                    } else {
                         strike++;
                     }
                     break;
                 }
-                //값이 없을 때.
-
             }
-
         }
-        out = level-(strike + ball);
+        out = level - (strike + ball);
         System.out.println("strike = " + strike + " ball = " + ball + " out = " + out);
-        if(strike == level) {
+        if (strike == level) {
             System.out.println("Clear!!");
-        }
-        else {
+        } else {
             System.out.println("retry >> ");
             this.answer.clear();
             strike = 0;
@@ -63,7 +60,6 @@ public class NumberValid {
             out = 0;
 
         }
-
 
 
     }
